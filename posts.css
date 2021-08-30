@@ -1,0 +1,273 @@
+.mediaViewInfo {
+	--web-view-name: Home – 1;
+	--web-view-id: Home__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Home__1 {
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	background-color: rgba(200,189,255,1);
+	overflow: hidden;
+	--web-view-name: Home – 1;
+	--web-view-id: Home__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Clouds_ {
+	position: absolute;
+	width: 1366px;
+	height: 168px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Hug_the_Grizzly_ {
+	filter: drop-shadow(-2px 4px 0px rgba(255, 128, 213, 0.471));
+	left: 89px;
+	top: 122px;
+	position: absolute;
+	overflow: visible;
+	width: 379px;
+	height: 66px;
+	text-align: left;
+	font-family: VAG Rundschrift D;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	color: rgba(255,255,255,1);
+}
+#Component_1__2 {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 834px;
+	top: 196px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Repeat_Grid_1_ {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#Group_1_ba {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1_bb {
+	fill: rgba(246,162,255,1);
+}
+.Rectangle_1_bb {
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+#Home_bc {
+	left: 28px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 24px;
+	text-align: center;
+	font-family: VAG Rundschrift D;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Component_1__3 {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 962px;
+	top: 196px;
+	overflow: visible;
+}
+#Repeat_Grid_1_be {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#Group_1_bf {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1_bg {
+	fill: rgba(246,162,255,1);
+}
+.Rectangle_1_bg {
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+#Posts_bh {
+	left: 28px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 24px;
+	text-align: center;
+	font-family: VAG Rundschrift D;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Component_1__4 {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 1090px;
+	top: 196px;
+	overflow: visible;
+}
+#Repeat_Grid_1_bj {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#Group_1_bk {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1_bl {
+	fill: rgba(246,162,255,1);
+}
+.Rectangle_1_bl {
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+#Art_bm {
+	left: 28px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 24px;
+	text-align: center;
+	font-family: VAG Rundschrift D;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Component_1__5 {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 1218px;
+	top: 196px;
+	overflow: visible;
+}
+#Repeat_Grid_1_bo {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#Group_1_bp {
+	position: absolute;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1_bq {
+	fill: rgba(246,162,255,1);
+}
+.Rectangle_1_bq {
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+#About_br {
+	left: 28px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 24px;
+	text-align: center;
+	font-family: VAG Rundschrift D;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#POSSSTTSSSS {
+	left: 298px;
+	top: 362px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
