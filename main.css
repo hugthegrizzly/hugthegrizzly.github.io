@@ -83,3 +83,14 @@ a.nav-link:hover {
     text-align: center;
     width: 45%;
 }
+
+.gallery {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.gallery-item {
+    display: inline-block;
+    padding: 5px;
+}
