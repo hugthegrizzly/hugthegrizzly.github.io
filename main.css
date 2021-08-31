@@ -20,7 +20,7 @@ h2{
 
 p{
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 17px;
     padding: 2px;
     line-height: 30px;
 }
@@ -37,12 +37,12 @@ p{
 @font-face {
     font-family: Poppins;
     font-weight: normal;
-    src: url(Poppins-Regular.ttf);
+    src: url(Poppins/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: Poppins;
     font-weight: bold;
-    src: url(Poppins-SemiBold.ttf);
+    src: url(Poppins/Poppins-SemiBold.ttf);
 }
 @font-face {
     font-family: DoublePica;
