@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    background-color: #f1e3ff;
+}
+
+footer {
+    color: #f4e4fc;
+    text-align: center;
+    background-color: #202b69;
+}
+
+h1{
+    font-family: DoublePica;
+}
+
+h2{
+    font-family: DoublePica;
+    padding: 6px;
+}
+
+p{
+    font-family: Poppins;
+    font-size: 18px;
+    padding: 2px;
+    line-height: 30px;
+}
+
+.hero-image {
+    background-image: url("clouds.jpg");
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: normal;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    font-weight: bold;
+    src: url(Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: DoublePica;
+    src: url(IMFellDoublePicaSC-Regular.ttf);
+}
+
+.nav-item {
+    display: inline;
+    padding: 2%;
+    font-size: 16px;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: black;
+}
+a.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    text-align: center;
+    padding: 2px;
+    font-family: Poppins;
+}
+
+.featured-game {
+    text-align: center;
+    padding: 2%;
+}
+
+.featured-img {
+    width: 30%;
+}
+
+.description {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
