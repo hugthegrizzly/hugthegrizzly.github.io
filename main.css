@@ -37,12 +37,12 @@ p{
 @font-face {
     font-family: Poppins;
     font-weight: normal;
-    src: url(Poppins/Poppins-Regular.ttf);
+    src: url(Poppins-Regular.ttf);
 }
 @font-face {
     font-family: Poppins;
     font-weight: bold;
-    src: url(Poppins/Poppins-SemiBold.ttf);
+    src: url(Poppins-SemiBold.ttf);
 }
 @font-face {
     font-family: DoublePica;
