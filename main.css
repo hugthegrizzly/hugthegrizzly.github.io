@@ -49,25 +49,43 @@ p {
     src: url(IMFellDoublePicaSC-Regular.ttf);
 }
 
-.nav-item {
-    display: inline;
-    padding: 2%;
-    font-size: 1em;
-}
-
-a.nav-link {
-    text-decoration: none;
-    color: black;
-    transition: 0.2s;
-}
-a.nav-link:hover {
-    color: deeppink;
-}
-
 .navigation {
     text-align: center;
     padding: 2px;
     font-family: Poppins;
+    font-weight: bold;
+}
+
+.navigation ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navigation ul li {
+    margin-inline: 25px;
+    padding-bottom: 10px;
+}
+
+.navigation ul li a {
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation ul li a:hover {
+    color: deeppink;
+}
+
+.navigation ul li:hover .games-dropdown {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -65px;
+}
+
+.games-dropdown {
+    display: none;
+    font-weight: normal;
 }
 
 .featured-game {
