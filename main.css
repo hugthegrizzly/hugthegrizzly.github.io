@@ -58,9 +58,10 @@ p {
 a.nav-link {
     text-decoration: none;
     color: black;
+    transition: 0.2s;
 }
 a.nav-link:hover {
-    text-decoration: underline;
+    color: deeppink;
 }
 
 .navigation {
