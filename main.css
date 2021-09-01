@@ -1,4 +1,6 @@
 body, html {
+    margin: 0;
+    padding: 0;
     height: 100%;
     background-color: #f1e3ff;
 }
@@ -7,6 +9,7 @@ footer {
     color: #f4e4fc;
     text-align: center;
     background-color: #202b69;
+    padding-block: 15px;
 }
 
 h1{
