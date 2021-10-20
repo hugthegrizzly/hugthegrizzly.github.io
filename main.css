@@ -16,16 +16,28 @@ h1{
     font-family: DoublePica;
 }
 
-h2{
+h2 {
     font-family: DoublePica;
-    padding: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 p {
     font-family: Poppins;
     font-size: 1.06em;
     padding: 2px;
-    line-height: 30px;
+    line-height: 33px;
+}
+
+table {
+    margin-left: 83px;
+    font-family: Poppins;
+    font-size: 1em;
+}
+
+td {
+    padding-inline: 20px;
+    line-height: 22px;
 }
 
 .hero-image {
@@ -69,13 +81,13 @@ p {
     padding-bottom: 10px;
 }
 
-.navigation ul li a {
+a {
     transition: 0.2s;
     text-decoration: none;
     color: black;
 }
 
-.navigation ul li a:hover {
+a:hover {
     color: deeppink;
 }
 
@@ -91,7 +103,7 @@ p {
     font-weight: normal;
 }
 
-.featured-game {
+.featured {
     text-align: center;
     padding: 2%;
 }
@@ -100,11 +112,26 @@ p {
     width: 30%;
 }
 
+
 .description {
     display: inline-block;
     text-align: center;
     width: 45%;
 }
+
+.post {
+    display: inline-block;
+    text-align: left;
+    width: 53%;
+}
+
+.post-img {
+    display: inline-block;
+    position: relative;
+    width: 85%;
+    margin-inline: 53px;
+}
+
 
 .gallery {
     text-align: center;
