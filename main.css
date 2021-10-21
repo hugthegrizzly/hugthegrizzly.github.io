@@ -14,13 +14,19 @@ footer {
 }
 
 h1{
-    font-family: DoublePica;
+    font-family: Poppins;
 }
 
 h2 {
     font-family: DoublePica;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 1.3rem;
+    margin-top: -5px;
+    color: #a89fb5;
 }
 
 p {
@@ -64,6 +70,7 @@ p {
     border-bottom: solid;
     border-bottom-color: #e5e1eb;
     border-bottom-width: thin;
+    background-color: #eee9f5;
 }
 
 .navigation ul {
@@ -121,9 +128,10 @@ td {
 
 
 .post-img {
-    display: inline-block;
-    position: relative;
+    display: block;
+    margin-inline: auto;
     width: 100%;
+    max-width: 800px;
 }
 
 
