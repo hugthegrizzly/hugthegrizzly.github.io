@@ -2,7 +2,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #f1e3ff;
+    background-color: #f3f0f7;
+    box-sizing: border-box;
 }
 
 footer {
@@ -27,17 +28,6 @@ p {
     font-size: 1.06em;
     padding: 2px;
     line-height: 33px;
-}
-
-table {
-    margin-left: 83px;
-    font-family: Poppins;
-    font-size: 1em;
-}
-
-td {
-    padding-inline: 20px;
-    line-height: 22px;
 }
 
 .hero-image {
@@ -66,19 +56,24 @@ td {
 
 .navigation {
     text-align: center;
-    padding: 2px;
     font-family: Poppins;
     font-weight: bold;
+    width: 100%;
+    max-height: 55px;
+    height: 100%;
+    border-bottom: solid;
+    border-bottom-color: #e5e1eb;
+    border-bottom-width: thin;
 }
 
 .navigation ul {
-    display: inline-flex;
+    display: inline-block;
     list-style: none;
 }
 
 .navigation ul li {
+    display: inline;
     margin-inline: 25px;
-    padding-bottom: 10px;
 }
 
 a {
@@ -89,18 +84,6 @@ a {
 
 a:hover {
     color: deeppink;
-}
-
-.navigation ul li:hover .games-dropdown {
-    display: block;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: -65px;
-}
-
-.games-dropdown {
-    display: none;
-    font-weight: normal;
 }
 
 .featured {
@@ -122,14 +105,25 @@ a:hover {
 .post {
     display: inline-block;
     text-align: left;
-    width: 53%;
+    width: 100%;
 }
+
+table {
+
+    font-family: Poppins;
+    font-size: 1em;
+}
+
+td {
+    padding-inline: 20px;
+    line-height: 22px;
+}
+
 
 .post-img {
     display: inline-block;
     position: relative;
-    width: 85%;
-    margin-inline: 53px;
+    width: 100%;
 }
 
 
