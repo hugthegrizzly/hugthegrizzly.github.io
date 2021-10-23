@@ -3,7 +3,6 @@ body, html {
     padding: 0;
     height: 100%;
     background-color: #f3f0f7;
-    min-width: 500px;
 }
 
 footer {
@@ -84,6 +83,7 @@ p {
 .navigation ul li {
     display: inline;
     margin-inline: 5px;
+    min-width: 20px;
     padding-inline: 20px;
 }
 
