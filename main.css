@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     background-color: #f3f0f7;
-    box-sizing: border-box;
+    min-width: 500px;
 }
 
 footer {
@@ -15,13 +15,14 @@ footer {
 
 h1 {
     font-family: Poppins;
-    line-height: 0.5em;
+    line-height: 1.5em;
 }
 
 h2 {
     font-family: DoublePica;
-    font-size: 2.5em;
-    line-height: 0.5em;
+    font-size: 2.25em;
+    line-height: 1.25em;
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -82,12 +83,14 @@ p {
 
 .navigation ul li {
     display: inline;
-    margin-inline: 25px;
+    margin-inline: 5px;
+    padding-inline: 20px;
 }
 
-.navigation .current {
+.navigation ul .current {
+    padding-bottom: 14px;
     border-bottom: solid;
-    border-bottom-color: black;
+    border-bottom-color: darkviolet;
 }
 
 a {
@@ -97,7 +100,7 @@ a {
 }
 
 a:hover {
-    color: deeppink;
+    color: darkviolet;
 }
 
 .featured {
@@ -166,12 +169,14 @@ td {
 
 .portfolio-nav ul li {
     display: inline;
-    margin-inline: 25px;
+    margin-inline: 5px;
+    padding-inline: 20px;
 }
 
-.portfolio-nav .current {
+.portfolio-nav ul .current {
     border-bottom: solid;
     border-bottom-color: black;
+    padding-bottom: 14px;
 }
 
 .gallery {
