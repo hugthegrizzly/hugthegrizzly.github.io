@@ -139,8 +139,8 @@ a {
 .featured-img {
     display: inline-block;
     float: left;
-    width: 100%;
-    max-width: 270px;
+    width: 32%;
+    max-width: 500px;
     padding-right: 15px;
 }
 
