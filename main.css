@@ -15,7 +15,7 @@ footer {
 /* h1 */
 .title {
     font-family: Poppins;
-    line-height: 1.5em;
+    line-height: 2.5rem;
     margin-bottom: 24px;
 }
 
@@ -30,7 +30,7 @@ footer {
 h2 {
     font-family: Poppins;
     font-size: 1.3em;
-    line-height: 1.3em;
+    line-height: 1.9rem;
     padding-bottom: 12px;
     margin-top: -7px;
     color: #8b898f;
