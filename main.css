@@ -148,7 +148,7 @@ a {
 .featured-post-title {
     background-color: #eee9f5;
     font-family: Poppins;
-    font-size: 1.5em;
+    font-size: 1.3rem;
     line-height: 1.5em;
     margin: 0px;
     margin-bottom: 5px;
@@ -164,6 +164,7 @@ a {
 
 .featured-post-desc {
     font-family: Poppins;
+    font-size: 1rem;
     line-height: 24px;
     display: inline;
     color: #514d54;
