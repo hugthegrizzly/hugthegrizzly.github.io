@@ -223,13 +223,6 @@ td {
 
 }
 
-.gallery {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    padding: 25px;
-}
-
 .gallery-item {
     display: inline-block;
     padding: 5px;
