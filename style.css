@@ -94,7 +94,7 @@ h2 {
     flex-direction: column;
 }
 
-.post-info p {
+.post-desc p {
     font-family: Poppins;
     font-size: 16px;
     line-height: 24px;
@@ -120,6 +120,10 @@ h2 {
     transition: 0.2s;
 }
 
+.thumbnail img {
+    width: inherit;
+}
+
 .thumbnail:hover {
     filter: brightness(115%);
 }
@@ -141,11 +145,14 @@ h2 {
     .thumbnail {
         width: 95%;
     }
+
+    .post-info {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-    .thumbnail {
-    }
 
     .container {
         padding-left: 20%;
@@ -154,6 +161,10 @@ h2 {
 
     .recent-post {
         padding-bottom: 4%;
+    }
+
+    .post-info {
+        justify-content: space-evenly;
     }
 }
 
