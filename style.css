@@ -111,7 +111,7 @@ h2 {
     display: inline;
     padding: 1px 5px 1px 5px;
     margin-right: 5px;
-    background-color: aquamarine;
+    background-color: #90f5d0;
     border-radius: 9px;
 }
 
@@ -160,11 +160,11 @@ h2 {
     }
 
     .recent-post {
-        padding-bottom: 4%;
+        padding-bottom: 20px;
     }
 
     .post-info {
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
 }
 
