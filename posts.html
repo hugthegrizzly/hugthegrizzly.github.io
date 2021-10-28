@@ -14,8 +14,8 @@
         <header>
             <nav>
                 <ul>
-                    <li class="nav-current"><a href="index.html">Home</a></li>
-                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="nav-current"><a href="posts.html">Posts</a></li>
                     <li><a href="art.html">Portfolio</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
@@ -23,7 +23,25 @@
         </header>
 
         <div class="container">
-            <h1 class="title">Recent Posts</h1>
+            <div class="search">
+                <input type="text" class="search-bar" />
+                <button type="submit" class="search-button"><img class="searchIcon" href="icons8-search.svg" /></button>
+            </div>
+
+            <article class="featured-post">
+                <a class="thumbnail"><img src="images/uc-thumbnail.png" /></a>
+                <div class="post-info">
+                    <div class="post-desc">
+                        <h2><a>Upcoming Post</a></h2>
+                        <p>A detective and two guardians set out on an adventure to find answers, protect those they care for, and maybe even change the world.</p>
+                    </div>
+                    <ul class="post-tags">
+                        <li style="background-color: #d1d1d1">Story-Driven</li>
+                        <li style="background-color: #d1d1d1">Choices Matter</li>
+                    </ul>
+                </div>
+            </article>
+
             <article class="featured-post">
                 <a href="posts/riders-republic.html" class="thumbnail"><img src="images/2-thumbnail.png" /></a>
                 <div class="post-info">
