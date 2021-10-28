@@ -145,7 +145,7 @@ h2 {
     font-family: Poppins;
     font-size: 16px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .search-bar:focus {
@@ -157,12 +157,12 @@ h2 {
     width: 100%;
     cursor: pointer;
     border: none;
-    border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 4px 4px 0px;
     background-color: darkviolet;
     text-align: center;
 }
 
-.searchIcon {
+.search-icon {
     width: 5px;
 }
 
@@ -246,21 +246,28 @@ td {
         justify-content: space-between;
         flex: 60%;
     }
+
+    .search {
+        padding-inline: 100px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
 
     .container {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding: 45px 20% 45px 20%;
     }
 
     .post-info {
         justify-content: flex-start;
     }
 
-    .search-button{
-        flex: 20%;
+    .search {
+        margin-bottom: 58px;
+    }
+
+    .search-button {
+        flex: 80px;
     }
 }
 
