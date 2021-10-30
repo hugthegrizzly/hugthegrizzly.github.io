@@ -151,9 +151,7 @@ footer p {
 /*Posts page*/
 .search {
     margin-bottom: 44px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    position: relative;
 }
 
 #search-bar {
@@ -162,26 +160,23 @@ footer p {
     width: 100%;
     font-family: Poppins;
     font-size: 16px;
+    border-radius: 4px;
     border: none;
-    border-radius: 4px 0px 0px 4px;
+    outline: none;
 }
 
 #search-bar:focus {
     outline: none;
 }
 
-.search-button {
-    flex: 65px;
-    width: 100%;
-    cursor: pointer;
-    border: none;
-    border-radius: 0px 4px 4px 0px;
-    background-color: darkviolet;
-    text-align: center;
-}
-
 .search-icon {
-    width: 5px;
+    position: absolute;
+    display: inline;
+    margin-left: -27px;
+    padding-top: 7px;
+    height: 20px;
+    filter: opacity(25%);
+    pointer-events: none
 }
 
 #search-not-found {
@@ -292,10 +287,6 @@ td {
 
     .search {
         margin-bottom: 58px;
-    }
-
-    .search-button {
-        flex: 80px;
     }
 }
 
