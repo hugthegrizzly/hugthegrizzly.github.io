@@ -73,6 +73,9 @@
                     </ul>
                 </div>
             </article>
+
+            <article id="search-not-found"> <img src="images/not-found.jpg" />
+            </article>
         </div>
 
         <footer>
@@ -85,13 +88,15 @@
         <script>
             //creates HTMLcollection (array) out of elements under 'post-desc' class
             var posts = document.getElementsByClassName("featured-post");
+            var arr = Array.from(posts);
+            var errorImg = document.getElementById("search-not-found");
             //event listener to log every time user presses key
             var searchBar = document.getElementById("search-bar");
             searchBar.addEventListener('keyup', (e) => {
                 var searchQuery = e.target.value;
                 //restart at initial array index (-1)
                 var number = -1;
-                console.log(searchQuery);
+                var isaPostShowing = false;
 
                 //loop to check every array index 
                 while (number < posts.length) { //while number < number of posts
@@ -101,14 +106,24 @@
                     //check if the HTML of any post contains search query
                     if (posts[number].innerHTML.toLowerCase().includes(searchQuery)) {
                         posts[number].style.display = "flex";
+                        isaPostShowing = true;
                     }
                     else {
                         posts[number].style.display = "none";
                     }
                     //since 'number' changes inside this loop, it will be 'undefined' outside of it. so the if statement is inside loop
+
+                    //if no posts match the search query after going through the loop, then show the 'not found' image
+                    if (isaPostShowing == false) {
+                        errorImg.style.display = "block";
+                    }
+                    else {
+                        errorImg.style.display = "none";
+                    }
                 }
 
             });
         </script>
+
     </body>
 </html>

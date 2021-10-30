@@ -184,7 +184,17 @@ footer p {
     width: 5px;
 }
 
-/*Article page*/
+#search-not-found {
+    display: none;
+    text-align: center;
+    padding: 48px 0px 92px 0px;
+}
+
+#search-not-found img {
+    width: 25%;
+}
+
+/*Single post page*/
 .post-img {
     display: block;
     margin-inline: auto;
