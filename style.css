@@ -86,8 +86,15 @@ h2 {
 /*Home page*/
 .featured-post {
     display: flex;
-    margin-bottom: 44px;
-    flex-direction:column;
+    flex-direction: column;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.featured-art {
+    display: flex;
+    margin-bottom: 52px;
+    flex-direction: column;
 }
 
 .post-info {
@@ -99,7 +106,7 @@ h2 {
     font-family: Poppins;
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .post-tags {
@@ -129,6 +136,18 @@ h2 {
     filter: brightness(115%);
 }
 
+footer {
+    color: #f4e4fc;
+    text-align: center;
+    background-color: #202b69;
+    padding-block: 15px;
+}
+
+footer p {
+    font-family: Poppins;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
 
 /*Posts page*/
 .search {
@@ -138,7 +157,7 @@ h2 {
     justify-content: space-between;
 }
 
-.search-bar {
+#search-bar {
     padding: 5px 7px;
     flex: 100%;
     width: 100%;
@@ -148,7 +167,7 @@ h2 {
     border-radius: 4px;
 }
 
-.search-bar:focus {
+#search-bar:focus {
     outline: none;
 }
 
@@ -281,11 +300,4 @@ td {
     font-family: Poppins;
     font-weight: bold;
     src: url(Poppins-SemiBold.ttf);
-}
-
-footer {
-    color: #f4e4fc;
-    text-align: center;
-    background-color: #202b69;
-    padding-block: 15px;
 }

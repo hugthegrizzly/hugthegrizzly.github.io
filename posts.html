@@ -23,17 +23,25 @@
         </header>
 
         <div class="container">
+            <!--Posts search-->
             <div class="search">
-                <input type="text" class="search-bar" />
-                <button type="submit" class="search-button"><img class="searchIcon" href="icons8-search.svg" /></button>
+                <input type="search" id="search-bar" />
+                <button type="submit" class="search-button"><img class="search-icon" href="icons8-search.svg" /></button>
+                <script>
+                    var query = document.getElementById("search-bar");
+                    if (query.Value = "race") {
+                        query.Value = "potato";
+                    }
+                </script>
             </div>
 
+            <!--Posts list-->
             <article class="featured-post">
                 <a class="thumbnail"><img src="images/uc-thumbnail.png" /></a>
                 <div class="post-info">
                     <div class="post-desc">
                         <h2><a>Upcoming Post</a></h2>
-                        <p>A detective and two guardians set out on an adventure to find answers, protect those they care for, and maybe even change the world.</p>
+                        <p>A detective and two guardians set out on an adventure to find answers, protect those they care for, and change the world.</p>
                     </div>
                     <ul class="post-tags">
                         <li style="background-color: #d1d1d1">Story-Driven</li>
@@ -72,7 +80,7 @@
         </div>
 
         <footer>
-            <p style="font-size: 0.9em; padding:0">Hug the Grizzly</p>
+            <p>Hug the Grizzly</p>
             <a href="https://www.instagram.com/HugtheGrizzlyArt"><img src="icons8-instagram.svg" width="38" height="38" /></a>
             <a href="https://www.twitter.com/HugGrizzlyDev"><img src="icons8-twitter.svg" width="38" height="38" /></a>
         </footer>
