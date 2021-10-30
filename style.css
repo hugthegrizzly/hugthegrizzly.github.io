@@ -87,13 +87,12 @@ h2 {
 .featured-post {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
-    flex-direction: column;
+    margin-bottom: 48px;
 }
 
 .featured-art {
     display: flex;
-    margin-bottom: 52px;
+    margin-bottom: 48px;
     flex-direction: column;
 }
 
@@ -140,13 +139,13 @@ footer {
     color: #f4e4fc;
     text-align: center;
     background-color: #202b69;
-    padding-block: 15px;
+    padding: 15px;
 }
 
 footer p {
     font-family: Poppins;
     font-size: 14px;
-    padding-bottom: 6px;
+    padding: 6px 0px;
 }
 
 /*Posts page*/
@@ -164,7 +163,7 @@ footer p {
     font-family: Poppins;
     font-size: 16px;
     border: none;
-    border-radius: 4px;
+    border-radius: 4px 0px 0px 4px;
 }
 
 #search-bar:focus {

@@ -24,16 +24,10 @@
 
         <div class="container">
             <!--Posts search-->
-            <div class="search">
+            <form class="search">
                 <input type="search" id="search-bar" />
                 <button type="submit" class="search-button"><img class="search-icon" href="icons8-search.svg" /></button>
-                <script>
-                    var query = document.getElementById("search-bar");
-                    if (query.Value = "race") {
-                        query.Value = "potato";
-                    }
-                </script>
-            </div>
+            </form>
 
             <!--Posts list-->
             <article class="featured-post">
@@ -60,6 +54,7 @@
                     <ul class="post-tags">
                         <li>Horror</li>
                         <li>Atmospheric</li>
+                        <!--2010--> <!--frictional games--> <!--first person-->
                     </ul>
                 </div>
             </article>
@@ -74,6 +69,7 @@
                     <ul class="post-tags">
                         <li>Racing</li>
                         <li>Open-World</li>
+                        <!--2021--> <!--race--> <!--ubisoft-->
                     </ul>
                 </div>
             </article>
@@ -84,5 +80,35 @@
             <a href="https://www.instagram.com/HugtheGrizzlyArt"><img src="icons8-instagram.svg" width="38" height="38" /></a>
             <a href="https://www.twitter.com/HugGrizzlyDev"><img src="icons8-twitter.svg" width="38" height="38" /></a>
         </footer>
+
+        <!--Searchbar script-->
+        <script>
+            //creates HTMLcollection (array) out of elements under 'post-desc' class
+            var posts = document.getElementsByClassName("featured-post");
+            //event listener to log every time user presses key
+            var searchBar = document.getElementById("search-bar");
+            searchBar.addEventListener('keyup', (e) => {
+                var searchQuery = e.target.value;
+                //restart at initial array index (-1)
+                var number = -1;
+                console.log(searchQuery);
+
+                //loop to check every array index 
+                while (number < posts.length) { //while number < number of posts
+                    ++number; //number + 1
+                    console.log(posts[number]);
+
+                    //check if the HTML of any post contains search query
+                    if (posts[number].innerHTML.toLowerCase().includes(searchQuery)) {
+                        posts[number].style.display = "flex";
+                    }
+                    else {
+                        posts[number].style.display = "none";
+                    }
+                    //since 'number' changes inside this loop, it will be 'undefined' outside of it. so the if statement is inside loop
+                }
+
+            });
+        </script>
     </body>
 </html>
