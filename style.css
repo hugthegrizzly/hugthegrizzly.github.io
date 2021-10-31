@@ -71,6 +71,7 @@ h1 {
     font-weight: bold;
     font-size: 32px;
     line-height: 42px;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 
@@ -98,7 +99,7 @@ h2 {
 
 .featured-artwork {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 14px;
 }
 
 .featured-artwork img {
@@ -159,7 +160,7 @@ h2 {
 
 .about-desc img {
     display: inline-block;
-    width: 125px;
+    width: 100px;
 }
 
 footer {
