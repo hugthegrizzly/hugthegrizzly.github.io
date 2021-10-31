@@ -90,10 +90,21 @@ h2 {
     margin-bottom: 50px;
 }
 
-.featured-art {
+.featured-gallery {
     display: flex;
     margin-bottom: 50px;
     flex-direction: column;
+}
+
+.featured-artwork {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.featured-artwork img {
+    width: inherit;
+    border-radius: 10px;
+    pointer-events: none;
 }
 
 .post-info {
@@ -234,12 +245,6 @@ td {
     padding-bottom: 14px;
 }
 
-.gallery-item {
-    display: inline;
-    padding: 5px;
-    width: 100%;
-}
-
 @media only screen and (min-width: 500px) {
     nav ul {
         justify-content: center;
@@ -251,6 +256,16 @@ td {
 
     .featured-post {
         flex-direction: row;
+    }
+    
+    .featured-gallery {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .featured-artwork {
+        margin-bottom: 0px;
+        flex: 0 1 32%;
     }
 
     .thumbnail {
