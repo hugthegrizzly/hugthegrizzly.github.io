@@ -155,16 +155,16 @@ footer p {
 
 #search-bar {
     width: 100%;
-    padding: 5px 7px;
-    box-sizing: border-box;
     font-family: Poppins;
     font-size: 16px;
+    box-sizing: border-box;
+
+    padding: 5px 30px 5px 7px;
     border-radius: 4px;
     border: none;
     outline: none;
     background-image: url('icons8-search.svg');
-    background-origin: content-box;
-    background-position: right;
+    background-position: 98%;
     background-size: 20px;
     background-repeat: no-repeat;
 }
@@ -262,10 +262,6 @@ td {
         flex-direction: column;
         justify-content: space-between;
         flex: 60%;
-    }
-
-    .search {
-        padding-inline: 100px;
     }
 }
 
