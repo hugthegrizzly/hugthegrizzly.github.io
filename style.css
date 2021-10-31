@@ -13,7 +13,7 @@ header {
 }
 
 .banner {
-    background-image: url("banner.png");
+    background-image: url("assets/images/banner.png");
     height: 20%;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ header {
     position: relative;
 }
 
-nav ul {
+.main-nav ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,7 +29,7 @@ nav ul {
 }
 
 
-nav ul li {
+.main-nav ul li {
     display: inline;
     padding: 10px 2%;
 
@@ -41,12 +41,12 @@ nav ul li {
     transition: 0.2s;
 }
 
-nav ul li:hover {
+.main-nav ul li:hover {
     border-bottom: 3px solid darkviolet;
 }
 
 
-.nav-current {
+.main-nav .nav-current {
     border-bottom: 3px solid darkviolet;
 }
 
@@ -146,6 +146,22 @@ h2 {
     filter: brightness(115%);
 }
 
+/*Temp, in need of changes*/
+.about-desc {
+    text-align: center;
+    padding: 15% 0px;
+}
+.about-desc p {
+    font-family: Poppins;
+    font-size: 16px;
+    padding-bottom: 36px;
+}
+
+.about-desc img {
+    display: inline-block;
+    width: 125px;
+}
+
 footer {
     color: #f4e4fc;
     text-align: center;
@@ -169,12 +185,11 @@ footer p {
     font-family: Poppins;
     font-size: 16px;
     box-sizing: border-box;
-
     padding: 5px 30px 5px 7px;
     border-radius: 4px;
     border: none;
     outline: none;
-    background-image: url('icons8-search.svg');
+    background-image: url('assets/images/icons8-search.svg');
     background-position: 98%;
     background-size: 20px;
     background-repeat: no-repeat;
@@ -216,37 +231,35 @@ td {
     background-color: #eee9f5;
 }
 
-
-.portfolio-nav {
-    text-align: center;
-    font-family: Poppins;
-    font-weight: bold;
-    width: 100%;
-    max-height: 55px;
-    border-bottom: solid;
-    border-bottom-color: #e5e1eb;
-    border-bottom-width: thin;
-}
-
+/*Portfolio page*/
 .portfolio-nav ul {
-    display: inline-block;
-    list-style: none;
+    display: flex;
+    padding: 4px 0px 4px 0px;
+    justify-content: center;
 }
 
 .portfolio-nav ul li {
     display: inline;
-    margin-inline: 5px;
-    padding-inline: 20px;
+    padding: 10px 2%;
+
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
 }
 
-.portfolio-nav ul .current {
-    border-bottom: solid;
-    border-bottom-color: black;
-    padding-bottom: 14px;
+.portfolio-nav ul li:hover {
+    border-bottom: 3px solid black;
+}
+
+.portfolio-nav .portfolio-nav-current {
+    border-bottom: 3px solid black;
 }
 
 @media only screen and (min-width: 500px) {
-    nav ul {
+    .main-nav ul {
         justify-content: center;
     }
 
@@ -278,6 +291,10 @@ td {
         justify-content: space-between;
         flex: 60%;
     }
+
+    .about-desc {
+        padding: 20px 6%;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -293,16 +310,20 @@ td {
     .search {
         margin-bottom: 58px;
     }
+
+    .about-desc {
+        padding: 60px 15% 100px 15%;
+    }
 }
 
 @font-face {
     font-family: Poppins;
     font-weight: normal;
-    src: url(Poppins-Regular.ttf);
+    src: url(assets/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
     font-family: Poppins;
     font-weight: bold;
-    src: url(Poppins-SemiBold.ttf);
+    src: url(assets/fonts/Poppins-SemiBold.ttf);
 }

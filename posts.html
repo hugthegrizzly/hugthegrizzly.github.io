@@ -5,14 +5,14 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link link rel="stylesheet" href="style.css">
-        <link rel="icon" href="site-icon.png">
+        <link rel="icon" href="assets/images/site-icon.png">
         <title>Hug the Grizzly</title>
     </head>
     
     <body>
         <div class="banner"></div>
         <header>
-            <nav>
+            <nav class="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li class="nav-current"><a href="posts.html">Posts</a></li>
@@ -26,15 +26,15 @@
 
             <!--Search posts-->
             <form class="search">
-                <input type="text" id="search-bar" maxlength="40"/>
+                <input type="text" id="search-bar" maxlength="40" />
             </form>
 
             <!--List of posts-->
             <article class="featured-post">
-                <a class="thumbnail"><img src="images/uc-thumbnail.png" /></a>
+                <a class="thumbnail"><img src="assets/images/uc-thumbnail.png" /></a>
                 <div class="post-info">
                     <div class="post-desc">
-                        <h2><a>Upcoming Post</a></h2>
+                        <h2>Upcoming Post</h2>
                         <p>A detective and two guardians set out on an adventure to find answers, protect those they care for, and change the world.</p>
                     </div>
                     <ul class="post-tags">
@@ -45,7 +45,7 @@
             </article>
 
             <article class="featured-post">
-                <a href="posts/riders-republic.html" class="thumbnail"><img src="images/2-thumbnail.png" /></a>
+                <a href="posts/riders-republic.html" class="thumbnail"><img src="assets/images/2-thumbnail.png" /></a>
                 <div class="post-info">
                     <div class="post-desc">
                         <h2><a href="posts/riders-republic.html">Smoke and Mirrors</a></h2>
@@ -60,7 +60,7 @@
             </article>
 
             <article class="featured-post">
-                <a href="posts/riders-republic.html" class="thumbnail"><img src="images/1-thumbnail.png" /></a>
+                <a href="posts/riders-republic.html" class="thumbnail"><img src="assets/images//1-thumbnail.png" /></a>
                 <div class="post-info">
                     <div class="post-desc">
                         <h2><a href="posts/riders-republic.html">Riders Republic is an Open-World Joyride</a></h2>
@@ -74,13 +74,13 @@
                 </div>
             </article>
 
-            <div id="search-not-found"> <img src="images/not-found.jpg" /></div>
+            <div id="search-not-found"> <img src="assets/images/not-found.jpg" /></div>
         </div>
 
         <footer>
             <p>Hug the Grizzly</p>
-            <a href="https://www.instagram.com/HugtheGrizzlyArt"><img src="icons8-instagram.svg" width="38" height="38" /></a>
-            <a href="https://www.twitter.com/HugGrizzlyDev"><img src="icons8-twitter.svg" width="38" height="38" /></a>
+            <a href="https://www.instagram.com/HugtheGrizzlyArt"><img src="assets/images/icons8-instagram.svg" width="38" height="38" /></a>
+            <a href="https://www.twitter.com/HugGrizzlyDev"><img src="assets/images/icons8-twitter.svg" width="38" height="38" /></a>
         </footer>
 
         <!--Searchbar script-->
@@ -97,7 +97,7 @@
                 var number = -1;
                 var isaPostShowing = false;
 
-                //loop to check every array index 
+                //loop to check every array index
                 while (number < posts.length) { //while number < number of posts
                     ++number; //number + 1
                     console.log(posts[number]);
@@ -123,6 +123,5 @@
 
             });
         </script>
-
     </body>
 </html>
